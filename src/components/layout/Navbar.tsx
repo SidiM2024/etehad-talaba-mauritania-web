@@ -30,7 +30,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold heading-gradient">UGETM</span>
+            <img 
+              src="/lovable-uploads/a2c85f99-73b4-41ae-9489-e89e82e0a263.png" 
+              alt="UGEM Logo" 
+              className="h-12 w-auto" 
+            />
+            <span className="text-xl font-bold heading-gradient">UGEM</span>
           </Link>
 
           {/* Desktop Menu */}

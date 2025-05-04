@@ -61,10 +61,10 @@ const Footer = () => {
                 WhatsApp
               </a>
               <a 
-                href="mailto:contact@ugetm.mr" 
+                href="mailto:contact@ugem.mr" 
                 className="flex items-center text-primary-foreground/80 hover:text-primary-foreground transition-colors"
               >
-                contact@ugetm.mr
+                contact@ugem.mr
               </a>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-primary-foreground/20 mt-8 pt-4 text-sm text-primary-foreground/70 text-center">
-          <p>© {currentYear} UGETM - {t('about.title')}</p>
+          <p>© {currentYear} UGEM - {t('about.title')}</p>
         </div>
       </div>
     </footer>
